@@ -83,7 +83,7 @@ app.layout = html.Div(
                                             #     "rectangle",
                                             #     "select",
                                              ],
-                                            add_only=False,
+                                           # add_only=False,
                                             lineColor="black",
                                             goButtonTitle="Submit",
                                         ),
