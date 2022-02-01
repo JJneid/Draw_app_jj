@@ -23,6 +23,7 @@ from tensorflow.keras.applications.mobilenet import preprocess_input, decode_pre
 
 
 app = dash.Dash(__name__)
+app.title = 'Draw_Guess_JJ'
 server = app.server
 
 ##################
