@@ -1,6 +1,7 @@
-name: dash_draw #Environment name
+name: dash_draw_deploy #Environment name
 dependencies:
   - python=3.6
+  - pip
   - pip:
     - dash
     - dash-renderer
@@ -8,3 +9,6 @@ dependencies:
     - dash-html-components
     - plotly
     - gunicorn # for app deployment
+    - dash-canvas
+    - tensorflow-cpu
+    - pandas

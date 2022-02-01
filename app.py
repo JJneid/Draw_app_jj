@@ -10,7 +10,7 @@ import dash_table
 from dash_canvas import DashCanvas
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
-import dash_daq as daq
+#import dash_daq as daq
 from dash_canvas.utils import (array_to_data_url, parse_jsonstring,)
 
 ###########
